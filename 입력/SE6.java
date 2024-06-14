@@ -1,3 +1,5 @@
+package 입력;
+
 import java.util.Scanner;
 
 public class SE6 {
@@ -8,5 +10,3 @@ public class SE6 {
         System.out.printf("Your height is %dcm.%n", height);
     }
 }
-
-Array
