@@ -12,7 +12,7 @@ public class P5 {
     }
 }
 
-class Main {
+class P52 {
     public static void main(String[] args) {
         String s = "*";
         Scanner sc = new Scanner(System.in);
