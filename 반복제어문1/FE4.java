@@ -23,7 +23,7 @@ class Main {
 
         for (int i = 0; i < row; i++) {
             for (int j = 1; j < col + 1; j++) {
-                System.out.printf("%d ",i+j);
+                System.out.printf("%d ", i + j);
             }
             System.out.println();
         }
