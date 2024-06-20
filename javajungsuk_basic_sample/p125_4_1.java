@@ -29,6 +29,7 @@ public class p125_4_1 {
     System.out.print("1번 : ");
     p.printAnswer(answer);
     //2.
+    //공백이나 탭이 들어가면 false
     String temp = p.makeString(ch);
     answer = !temp.equals(" ") && !temp.equals("\t");
     System.out.print("2번 : ");

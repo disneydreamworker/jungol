@@ -9,15 +9,20 @@ public class p125_4_4 {
     int i = 1;
     int j = -2;
 
-    while (result <= hund) {
-      result += i;
-      i++;
-      result -= j;
-      j-=2;
-      System.out.println(i + "  " + j + " result : " + result);
+    while (result < hund) {
       cnt++;
-    }
+      if(cnt %2==1) {
+      result += i;
+      i+=2;
 
+      } else {
+      result += j;
+      j-=2;
+
+      }
+
+      System.out.println(i + "  " + j + " result : " + result);
+    }
     System.out.println(cnt);
   }
 }

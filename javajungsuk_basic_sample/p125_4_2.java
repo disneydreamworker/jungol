@@ -11,5 +11,6 @@ public class p125_4_2 {
         sum+=i;
       }
     }
+    System.out.println(sum);
   }
 }
