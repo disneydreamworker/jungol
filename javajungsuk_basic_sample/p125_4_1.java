@@ -10,7 +10,6 @@ package javajungsuk_basic_sample;
 //⑦ boolean형 변수 powerOn가 false일 때 true인 조건식
 //⑧ 문자열 참조변수 str이 "yes"일 때 true인 조건식
 public class p125_4_1 {
-
   public static void main(String[] args) {
     //객체 생성
     p125_4_1 p = new p125_4_1();
@@ -20,7 +19,6 @@ public class p125_4_1 {
     int year = 4000;
     boolean powerOn = false;
     String str = "no";
-
     //1.
     int x = 1;
     if (x > 10 && x < 20) {
@@ -28,6 +26,7 @@ public class p125_4_1 {
     }
     System.out.print("1번 : ");
     p.printAnswer(answer);
+
     //2.
     //공백이나 탭이 들어가면 false
     String temp = p.makeString(ch);

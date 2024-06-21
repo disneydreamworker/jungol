@@ -12,5 +12,11 @@ public class p126_4_7 {
       sum += Integer.parseInt(String.valueOf(str.charAt(i)));
     }
     System.out.println("sum=" + sum);
+
+    //2.
+    for (int i = 0; i<str.length();i++) {
+      sum += str.charAt(i) - '0';
+    }
+
   }
 }

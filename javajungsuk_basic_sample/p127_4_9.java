@@ -5,28 +5,45 @@ package javajungsuk_basic_sample;
 //시오.
 //문자열로 변환하지 말고 숫자로만 처리해야 한다.
 
+import java.util.regex.Pattern;
+
 public class p127_4_9 {
 
-  public static void main(String[] args) {
+  public static void solution() {
     int num = 12345;
-    int temp = num;
     int sum = 0;
-    int digit = 0;
-    int tens = 1;
-
-    digit = String.valueOf(num).length();
-
-    for (int i = 1; i < digit; i++) {
-      tens = tens * 10;
+    while (num > 0) {
+      sum += num % 10;
+      System.out.println(sum);
+      num /= 10;
     }
-    for (int i = 0; i < digit; i++) {
-      int d = num / tens;
-      sum = sum + d;
-      num = num - d * tens;
-      System.out.println(num);
+    System.out.println("sum=" + sum);
+  }
 
-      tens = tens / 10;
-    }
-    System.out.println(sum);
+  public static void main(String[] args) {
+    solution();
   }
 }
+
+//    int num = 12345;
+//    int temp = num;
+//    int sum = 0;
+//    int digit = 0;
+//    int tens = 1;
+//
+//    digit = String.valueOf(num).length();
+//
+//    for (int i = 1; i < digit; i++) {
+//      tens = tens * 10;
+//    }
+//    for (int i = 0; i < digit; i++) {
+//      int d = num / tens;
+//      sum = sum + d;
+//      num = num - d * tens;
+//      System.out.println(num);
+//
+//      tens = tens / 10;
+//    }
+//    System.out.println(sum);
+
+

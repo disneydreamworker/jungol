@@ -14,14 +14,33 @@ public class p125_4_4 {
       if(cnt %2==1) {
       result += i;
       i+=2;
-
       } else {
       result += j;
       j-=2;
-
       }
+//      System.out.println(i + "  " + j + " result : " + result);
+    }
+    System.out.println(cnt);
 
-      System.out.println(i + "  " + j + " result : " + result);
+
+    solution();
+  }
+
+
+  public static void solution (){
+    int cnt = 1;
+    int result = 0;
+    while (result < 100) {
+      if(cnt%2==0) {
+        result += -(cnt);
+//        System.out.println(result);
+//        System.out.println(cnt);
+      } else {
+        result += cnt;
+//        System.out.println(result);
+//        System.out.println(cnt);
+      }
+      cnt++;
     }
     System.out.println(cnt);
   }

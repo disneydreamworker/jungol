@@ -7,5 +7,17 @@ public class p127_4_8 {
   public static void main(String[] args) {
     int value = (int) (Math.random() * 6) + 1;
     System.out.println("value:" + value);
+
+    //객체 메소드 실행
+    solution();
+  }
+
+  public static void solution() {
+    int value = (int) (Math.random() * 6) + 1;
+    System.out.println("value:" + value);
   }
 }
+
+//0.1 0.6 1.2
+//0.2 1.2 2.2
+//0.9 5.4 6.4
