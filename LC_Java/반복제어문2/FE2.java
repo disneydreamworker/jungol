@@ -1,4 +1,4 @@
-package 반복제어문2;
+package LC_Java.반복제어문2;
 //100 이하의 두 개의 정수를 입력받아 작은 수부터 큰 수까지 차례대로 출력하는 프로그램을 작성하시오.
 
 import java.util.Scanner;
