@@ -1,4 +1,4 @@
-package 선택제어문;
+package LC_Java.선택제어문;
 import java.io.*;
 public class FE4 {
     public static void main(String[] args) throws IOException {
