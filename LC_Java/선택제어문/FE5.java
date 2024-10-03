@@ -1,4 +1,4 @@
-package 선택제어문;
+package LC_Java.선택제어문;
 
 import java.time.YearMonth;
 import java.util.Scanner;

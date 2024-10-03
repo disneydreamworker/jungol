@@ -1,4 +1,4 @@
-package 연산자;
+package LC_Java.연산자;
 
 import javax.security.sasl.SaslClient;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package 입력;
+package LC_Java.입력;
 
 import java.io.*;
 import java.util.StringTokenizer;
