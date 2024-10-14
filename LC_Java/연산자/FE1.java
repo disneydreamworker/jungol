@@ -1,4 +1,4 @@
-package 연산자;
+package LC_Java.연산자;
 
 import java.util.Scanner;
 

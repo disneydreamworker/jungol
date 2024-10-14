@@ -1,4 +1,4 @@
-package 반복제어문1;
+package LC_Java.반복제어문1;
 import java.util.Scanner;
 public class FE1 {
     //정수를 입력받아 1부터 입력받은 정수까지를 차례대로 출력하는 프로그램을 작성하시오.
