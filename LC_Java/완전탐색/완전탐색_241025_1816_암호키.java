@@ -4,26 +4,28 @@ package LC_Java.완전탐색;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 
-public class 완전탐색_241015_19532_수학은비대면강의입니다 {
+public class 완전탐색_241025_1816_암호키 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int[] nums = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
+        int n = Integer.parseInt(br.readLine());
 
-        boolean f = false;
+        for (int i = 0; i < n; i++) {
+            boolean b = true;
+            long num = Long.parseLong(br.readLine());
 
-        for (int x = -999; x < 1000 ; x++) {
-            for (int y = -999; y <1000 ; y++) {
-                if ((nums[0] * x) + (nums[1] * y) == nums[2] && (nums[3] * x) + (nums[4] * y) == nums[5]) {
-                    System.out.println(x + " " + y);
-                    f = true;
+            for (int j = 2; j <= 1000000; j++) {
+                if (num % j == 0) {
+                    System.out.println("NO");
+                    b = false;
                     break;
                 }
             }
-            if (f) break;
-        }
 
+            if (b) {
+                System.out.println("YES");
+            }
+        }
     }
 }
